@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem; /* Space between grid items */
+    padding: 2rem;
+  }
+  
+  .grid-item {
+    position: relative;
+    height: 200px; /* Adjust height as needed */
+    color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-link {
+    position: relative;
+    z-index: 2; /* Ensure text appears above the background */
+    text-decoration: none;
+    font-size: 1.5rem;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards; /* Add fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes floatInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.animate-float-in-down {
+  animation: floatInDown 1.5s forwards;
 }
 
-@keyframes App-logo-spin {
+/* If you have a fade-in animation, define it as well */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
+
+.animate-fade-in-down {
+  animation: fadeIn 1.5s forwards;
+}
+
+
+
+
+
+
+/* styles.css */
+/* styles.css */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px; /* Width of the hamburger icon */
+  height: 20px; /* Height of the hamburger icon */
+  cursor: pointer;
+}
+
+.line {
+  background-color: #ffffff; /* Color of the hamburger lines */
+  height: 3px; /* Thickness of the lines */
+  transition: all 0.3s ease; /* Smooth transition for animation */
+}
+
+/* Hamburger icon open state */
+.open .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px); /* Rotate the first line */
+}
+
+.open .line:nth-child(2) {
+  opacity: 0; /* Hide the middle line */
+}
+
+.open .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px); /* Rotate the last line */
+}
+
+
+
+
+
+
