@@ -126,11 +126,11 @@ const HomePage = () => {
    
     <h3 className="text-2xl text-#1a1a2e font-bold mb-4 text-center">Why You Need to Be in the Tech Field</h3>
     <ul className="list-disc list-inside text-lg text-center">
-      <li> **Digital Transformation: Businesses increasingly need skilled professionals to create and maintain online platforms.</li>
-      <li> **Creative Expression:Blend creativity with technology to design visually appealing and user-friendly experiences.</li>
-      <li>**Career Opportunities:High demand for tech professionals offers numerous job opportunities across industries.</li>
-      <li> **Innovation and Problem-Solving: Tackle real-world problems with innovative solutions that enhance user experience.</li>
-      <li>**Continuous Learning: Stay engaged and grow as the tech industry evolves with new trends and technologies.</li>
+      <li>Digital Transformation: Businesses increasingly need skilled professionals to create and maintain online platforms.</li>
+      <li>Creative Expression:Blend creativity with technology to design visually appealing and user-friendly experiences.</li>
+      <li>Career Opportunities:High demand for tech professionals offers numerous job opportunities across industries.</li>
+      <li>Innovation and Problem-Solving: Tackle real-world problems with innovative solutions that enhance user experience.</li>
+      <li>Continuous Learning: Stay engaged and grow as the tech industry evolves with new trends and technologies.</li>
     </ul>
   </div>
 </section>
