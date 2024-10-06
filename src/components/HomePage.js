@@ -64,7 +64,7 @@ const HomePage = () => {
         <div className="bg-opacity-60 p-8 rounded-lg text-center">
           <h2 className="text-4xl font-bold mb-4">About Us</h2>
           <p className="text-lg delay-100">
-            Founded in 2024 by Ns Tech, we are dedicated to helping individuals explore their career options and make informed decisions. We understand that navigating career paths can be overwhelming, which is why we offer resources, mentorship, and insights to empower our users.
+            Founded in 2024 by Ade's-Tech, we are dedicated to helping individuals explore their career options and make informed decisions. We understand that navigating career paths can be overwhelming, which is why we offer resources, mentorship, and insights to empower our users.
 
             Our team consists of industry professionals with extensive experience, ensuring that our content is both relevant and practical. We strive to create a supportive community where individuals can connect, share experiences, and learn from one another.
           </p>
@@ -109,7 +109,7 @@ const HomePage = () => {
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Our Mission</h2>
           <p className="text-lg text-#1a1a2e-700 mb-4 text-center">
-            At Ns Tech, our mission is to equip individuals with comprehensive information and guidance across various fields, including Web Development, Design, AI, and more. We aim to be your trusted partner in exploring the evolving landscape of different industries, uncovering new opportunities, and providing the tools needed to succeed.
+            At Ade's-Tech, our mission is to equip individuals with comprehensive information and guidance across various fields, including Web Development, Design, AI, and more. We aim to be your trusted partner in exploring the evolving landscape of different industries, uncovering new opportunities, and providing the tools needed to succeed.
           </p>
         </div>
       </section>
